@@ -47,7 +47,7 @@ p {
     width: 540px;
 }
 
-button{
+button {
     width: 269px;
     height: 62px;
     background: #9499EA;
@@ -59,6 +59,7 @@ button{
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
@@ -75,9 +76,14 @@ a {
     color: #5D5D7D;
     margin-right: 41px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-a:nth-child(2) {
+a:hover {
+    opacity: 0.7;
+}
+
+.active {
     opacity: 0.4;
 }
 
